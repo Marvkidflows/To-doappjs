@@ -1,0 +1,105 @@
+body {
+        background: #f4f6fb;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+      h1 {
+        margin-top: 40px;
+        color: #333;
+        letter-spacing: 2px;
+      }
+      div {
+        margin: 30px 0 20px 0;
+      }
+      #todo-input {
+        padding: 10px 14px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+        width: 220px;
+        outline: none;
+        transition: border 0.2s;
+      }
+      #todo-input:focus {
+        border: 1.5px solid #0078d7;
+      }
+      #add-btn {
+        padding: 10px 18px;
+        margin-left: 8px;
+        background: #0078d7;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      #add-btn:hover {
+        background: #005fa3;
+      }
+      #todo-list {
+        list-style: none;
+        padding: 0;
+        width: 340px;
+        max-width: 90vw;
+      }
+      #todo-list li {
+        background: #fff;
+        margin-bottom: 14px;
+        padding: 16px 18px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: box-shadow 0.2s;
+      }
+      #todo-list li:hover {
+        box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+      }
+      #todo-list span {
+        font-size: 1.08rem;
+        color: #222;
+        flex: 1;
+        word-break: break-word;
+        transition: color 0.2s, text-decoration 0.2s;
+      }
+      #todo-list span.done {
+        color: #aaa;
+        text-decoration: line-through;
+      }
+      .box {
+        display: flex;
+        gap: 8px;
+      }
+      .box button {
+        padding: 7px 14px;
+        border: none;
+        border-radius: 5px;
+        font-size: 0.98rem;
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+      }
+      .box button:first-child {
+        background: #e6f4ea;
+        color: #1a7f37;
+      }
+      .box button:first-child:hover {
+        background: #b7e4c7;
+      }
+      .box button:last-child {
+        background: #fbeaea;
+        color: #c62828;
+      }
+      box button:last-child:hover {
+        background: #ffcdd2;
+      }
+
+
+
+
